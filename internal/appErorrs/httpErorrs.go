@@ -2,6 +2,7 @@ package appErrors
 
 import "net/http"
 
+// Test comments
 type HttpError struct {
 	Message      string
 	StatusCode   int
